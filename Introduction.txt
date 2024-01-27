@@ -9,3 +9,15 @@ dự án viết game cao cấp sử dụng vs code và các ngôn ngữ lập tr
 		- thành phần 2
 - thời gian 1 tháng tiếp theo sẽ thực hiện viết code và kiểm thử phần mềm: 19/2 đến 19/3
 	 	- thành phần 3
+- đó rồi giờ chúng ta sẽ tìm hiểu nhiều thứ trong đồ án lần này, nếu được thì chúng ta sẽ sử dụng nó làm đồ án luôn
+há chẳng phải là rất tiện lợi à
+
+
+
+
+
+I. đồ án kì này: 
+1. công nghệ truyền thông đa phương tiện
+2. hệ tính toán phân bố
+3. phát triển ứng dụng trên thiết bị di động 
+
