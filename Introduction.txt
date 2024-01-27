@@ -1,0 +1,11 @@
+dự án viết game cao cấp sử dụng vs code và các ngôn ngữ lập trình liên quan
+- gồm có 3 thành phần chính 
+	+ thành phần 1: tìm hiểu về game và lược sử ngành game
+	+ thành phần 2:nghiên cứu cách thiết kế và cách làm ra được một game như thế nào
+	+ thành phần 3: thực hành viết và kiểm thử phần mềm = các thứ đã được research trước đó.
+- Chúng ta có thờ gian 1 tháng để làm các thành phần liên quan chạy được. 
+	+ chúng ta có hời gian là từ ngày 28/1 đến ngày 15/2 để làm 
+		- thành phần 1
+		- thành phần 2
+- thời gian 1 tháng tiếp theo sẽ thực hiện viết code và kiểm thử phần mềm: 19/2 đến 19/3
+	 	- thành phần 3
