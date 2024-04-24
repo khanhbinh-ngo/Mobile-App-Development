@@ -54,7 +54,7 @@ const BoxFavourite = ({ image, content }) => {
             size={15}
             color="#FFF8EF"
             backgroundColor="rgba(0, 0, 255, 0)"
-            style={{ paddingTop: 4 ,paddingRight: 0}}
+            style={{ paddingTop: 4 ,paddingRight: 0, paddingLeft: 15}}
             onPress={() => alert("Pressed")}
           />
           {/* <Pressable
