@@ -24,7 +24,7 @@
         android:id="@+id/mailEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/mar_but075"
+        android:layout_marginBottom="@dimen/mar_top_bot025"
         android:background="@drawable/box_text"
         android:hint="@string/mail"
         android:inputType="textEmailAddress"

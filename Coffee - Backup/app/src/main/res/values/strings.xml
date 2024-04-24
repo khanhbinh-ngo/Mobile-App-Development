@@ -15,8 +15,11 @@
     <string name="pay_acc">Payment Accepted\nThank You</string>
     <string name="for_pas">Forgot password</string>
     <string name="mail">Email</string>
+    <string name="otp">Confirm Your OTP</string>
     <string name="pass">Password</string>
     <string name="name">Name</string>
     <string name="con_pass">Confirm Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="con_new_pass">Confirm New Password</string>
 
 </resources>
