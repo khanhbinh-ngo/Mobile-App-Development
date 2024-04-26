@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TheCoffeeHouse22</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email">Email</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_pass">Forgot password</string>
+    <string name="password">Password</string>
+    <string name="some_id">2</string>
+    <string name="c">C</string>
+    <string name="the_coffeeh">The CoffeeHouse\u00e2\u880\u009922</string>
+    <string name="my_account">My account</string>
+    <string name="edit_acc">Edit my profile</string>
+    <string name="settings">Settings</string>
+    <string name="sp">Help Support</string>
+    <string name="log_out">Log out</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="country">Country/Region</string>
+    <string name="space">30dp</string>
+
+</resources>
