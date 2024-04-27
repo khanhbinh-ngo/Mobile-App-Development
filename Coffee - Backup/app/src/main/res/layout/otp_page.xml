@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ima_bg"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ima_logo"
+        app:layout_constraintBottom_toTopOf="@+id/textFP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textFP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mar_top_bot025"
+        android:fontFamily="@font/aleo2"
+        android:gravity="center"
+        android:text="@string/otp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintBottom_toTopOf="@+id/otpDigit1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/otpDigit1"
+        android:layout_width="@dimen/mar_top_bot075"
+        android:layout_height="@dimen/mar_top_bot075"
+        android:layout_marginStart="@dimen/mar_top_bot025"
+        android:layout_marginBottom="@dimen/mar_top_bot"
+        android:background="@drawable/box_text"
+        android:fontFamily="@font/alice"
+        android:inputType="number"
+        android:paddingStart="@dimen/pad_left"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_reg"
+        app:layout_constraintEnd_toStartOf="@id/otpDigit2"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/otpDigit2"
+        android:layout_width="@dimen/mar_top_bot075"
+        android:layout_height="@dimen/mar_top_bot075"
+        android:layout_marginStart="@dimen/mar_top_bot05"
+        android:layout_marginBottom="@dimen/mar_top_bot"
+        android:background="@drawable/box_text"
+        android:fontFamily="@font/alice"
+        android:inputType="number"
+        android:paddingStart="@dimen/pad_left"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_reg"
+        app:layout_constraintEnd_toStartOf="@id/otpDigit3"
+        app:layout_constraintStart_toEndOf="@id/otpDigit1" />
+
+    <EditText
+        android:id="@+id/otpDigit3"
+        android:layout_width="@dimen/mar_top_bot075"
+        android:layout_height="@dimen/mar_top_bot075"
+        android:layout_marginStart="@dimen/mar_top_bot05"
+        android:layout_marginBottom="@dimen/mar_top_bot"
+        android:background="@drawable/box_text"
+        android:fontFamily="@font/alice"
+        android:inputType="number"
+        android:paddingStart="@dimen/pad_left"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_reg"
+        app:layout_constraintEnd_toStartOf="@id/otpDigit4"
+        app:layout_constraintStart_toEndOf="@id/otpDigit2" />
+
+    <EditText
+        android:id="@+id/otpDigit4"
+        android:layout_width="@dimen/mar_top_bot075"
+        android:layout_height="@dimen/mar_top_bot075"
+        android:layout_marginStart="@dimen/mar_top_bot05"
+        android:layout_marginBottom="@dimen/mar_top_bot"
+        android:background="@drawable/box_text"
+        android:fontFamily="@font/alice"
+        android:inputType="number"
+        android:paddingStart="@dimen/pad_left"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_reg"
+        app:layout_constraintStart_toEndOf="@id/otpDigit3" />
+
+    <ImageButton
+        android:id="@+id/ima_but_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mar_but05"
+        android:background="@drawable/but_con"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_can"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ima_but_can"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mar_but"
+        android:background="@drawable/but_can"
+        app:layout_constraintBottom_toTopOf="@+id/imageOr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mar_but"
+        android:background="@drawable/ima_or"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_fb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ima_but_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mar_but05"
+        android:background="@drawable/but_fb"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_gg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ima_but_gg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mar_but05"
+        android:background="@drawable/but_gg"
+        app:layout_constraintBottom_toTopOf="@+id/ima_but_apl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ima_but_apl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mar_top_bot"
+        android:background="@drawable/but_apl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

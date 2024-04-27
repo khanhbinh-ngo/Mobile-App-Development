@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_base">5dp</dimen>
+    <dimen name="margin_basex2">10dp</dimen>
+    <dimen name="margin_basex3">15dp</dimen>
+    <dimen name="margin_basex4">20dp</dimen>
+    <dimen name="margin_basex8">40dp</dimen>
+    <dimen name="margin_basex10">50dp</dimen>
+    <dimen name="image_base">100dp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_medium_large">18sp</dimen>
+    <dimen name="text_large">30sp</dimen>
+    <string name="id">ID:</string>
+    <string name="full_name">Full Name:</string>
+    <string name="is_manager">Is A Manager:</string>
+    <string name="staff">Staff</string>
+    <string name="add">Add</string>
+    <string name="you_have_a_new_message">Hey! You have a new message</string>
+    <dimen name="layout_width_button0">40dp</dimen>
+    <dimen name="layout_width_button">100dp</dimen>
+    <dimen name="layout_width_button1.5">150dp</dimen>
+    <dimen name="layout_width_button2">200dp</dimen>
+    <dimen name="layout_width_button3">300dp</dimen>
+    <dimen name="mar_top_bot">80dp</dimen>
+    <dimen name="mar_top_bot05">40dp</dimen>
+    <dimen name="mar_top_bot075">60dp</dimen>
+    <dimen name="mar_top_bot025">20dp</dimen>
+    <dimen name="mar_top_suc">420dp</dimen>
+    <dimen name="mar_but">25dp</dimen>
+    <dimen name="mar_but05">15dp</dimen>
+    <dimen name="pad_left">8dp</dimen>
+</resources>
